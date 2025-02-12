@@ -13,6 +13,6 @@ public class TestMain {
         System.out.println("qty is: " + inv1.getQty());
         System.out.println("unitPrice is: " + inv1.getUnitPrice());
 // Test getTotal()
-        System.out.println("The total is: " + inv1.getTotal());
+        System.out.println("The total is: " + inv1.getTotalPrice());
     }
 }

@@ -7,7 +7,7 @@ public class TestMain {
         Account a2 = new Account("A102", "Kumar"); // default balance
         System.out.println(a2);
 // Test Getters
-        System.out.println("ID: " + a1.getID());
+        System.out.println("ID: " + a1.getId());
         System.out.println("Name: " + a1.getName());
         System.out.println("Balance: " + a1.getBalance());
 // Test credit() and debit()
