@@ -8,10 +8,10 @@ public class Book {
     private int qty;
     //Zona de metodos
     public Book(String name, Author author, double price, int qty) {
-    this.name = name;
-    this.author = author;
-    this.price = price;
-    this.qty = qty;
+        this.name = name;
+        this.author = author;
+        this.price = price;
+        this.qty = qty;
     }
     public Book(String name, Author author, double price) {
         this.name = name;
@@ -42,4 +42,18 @@ public class Book {
     public void setQty(int qty) {
         this.qty = qty;
     }
+    public String getAuthorName() {
+        return author.getName();
+    }
+    public String getAuthorEmail() {
+        return author.getEmail();
+    }
+    public char getAuthorGender() {
+        return author.getGender();
+    }
+    @Override
+    public String toString() {
+        return "Book[name=" + name + "," + author.toString() + ", price=" + price + ", qty=" + qty + "]";
+    }
+
 }

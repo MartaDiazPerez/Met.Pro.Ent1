@@ -1,6 +1,6 @@
 package Entrega1.Ejerb.e1;
 // Clase Author, zona de atributos
-public class Author {
+public class Author{
     private String name;
     private String email;
     private char gender;
@@ -38,7 +38,7 @@ public class Author {
     //Otros
     @Override
     public String toString() {
-        return "Author[name=" + name + ",email=" + email + ",gender=" + gender + "]";
+        return "Authors[name=" + name + ",email=" + email + ",gender=" + gender + "]";
     }
 }
 
